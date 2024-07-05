@@ -1,8 +1,8 @@
 terraform {
   backend "s3" {
-    bucket         = "skbucket2207"
+    bucket         = "static-host-terraform"
     key            = "my-terraform-environment/main"
-    region         = "ap-southeast-1"
-    dynamodb_table = "mrcloudbook-dynamo-db-table"
+    region         = "us-east-1"
+    dynamodb_table = "harshakrithvik-dynamo-db-table"
   }
 }
